@@ -1,16 +1,26 @@
 This script uses two folders of documents to check how feasible simple Logistic Regression can distinguish between those two folders. One with the positive examples called "positives" and the other called "negatives" which should be folders outside of the repository.
 
 Folder structure:
+
 .
+
 ├── negatives
-│   ├── example 1.txt
-│   └── ...
+
+│ ├── example 1.txt
+
+│ └── ...
+
 ├── positives
-│   ├── example 1.txt
-│   └── ...
+
+│ ├── example 1.txt
+
+│ └── ...
+
 └── basicNLP
-    ├── bagOfChars.py
-    └── README.md
+
+  ├── bagOfChars.py
+
+  └── README.md
 
 
 It doesn't matter what the names of the files are, so long as the documents are in separate files for now.
